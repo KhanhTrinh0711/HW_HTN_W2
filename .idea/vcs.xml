@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/Bai1/Lib/STM32CubeF1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/BSP/Components/Common" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/BSP/Components/ak4343" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/BSP/Components/cs43l22" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/BSP/Components/hx8347d" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/BSP/Components/ili9320" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/BSP/Components/ili9325" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/BSP/Components/lis302dl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/BSP/Components/spfd5408" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/BSP/Components/st7735" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/BSP/Components/stlm75" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/BSP/Components/stmpe811" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/BSP/STM3210C_EVAL" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/BSP/STM3210E_EVAL" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/BSP/STM32F1xx_Nucleo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/BSP/STM32VL-Discovery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/CMSIS/Device/ST/STM32F1xx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Drivers/STM32F1xx_HAL_Driver" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Middlewares/ST/STM32_USB_Device_Library" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Middlewares/ST/STM32_USB_Host_Library" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Middlewares/Third_Party/FatFs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Middlewares/Third_Party/FreeRTOS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lib/STM32CubeF1/Middlewares/Third_Party/LwIP" vcs="Git" />
   </component>
 </project>

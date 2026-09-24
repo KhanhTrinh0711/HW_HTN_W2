@@ -6,26 +6,6 @@
 
 static volatile uint32_t systick_ms;
 
-static void clock_init(void)
-{
-    FLASH->ACR = 0x12U;
-
-    RCC->CR |= (1UL << 16);
-    while ((RCC->CR & (1UL << 17)) == 0UL) {
-    }
-
-    RCC->CFGR |= (7UL << 18);
-    RCC->CFGR |= (1UL << 16);
-    RCC->CR |= (1UL << 24);
-    while ((RCC->CR & (1UL << 25)) == 0UL) {
-    }
-
-    RCC->CFGR |= (4UL << 8);
-    RCC->CFGR |= (2UL << 0);
-    while ((RCC->CFGR & (3UL << 2)) != (2UL << 2)) {
-    }
-}
-
 static void led_init(void)
 {
     RCC->APB2ENR |= RCC_APB2ENR_IOPCEN;
@@ -56,7 +36,6 @@ void SysTick_Handler(void)
 
 int main(void)
 {
-    clock_init();
     led_init();
     systick_init();
 

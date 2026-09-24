@@ -1,4 +1,4 @@
-Build/b5.o: Src/b5.c \
+Build/b2.o: Src/b2.c \
  Lib/STM32CubeF1/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h \
  Lib/STM32CubeF1/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h \
  Lib/STM32CubeF1/Drivers/CMSIS/Core/Include/core_cm3.h \
